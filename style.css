@@ -12,6 +12,7 @@ body{
 }
 #home{
    margin-bottom: 0rem;
+   
 }
 .brand-image
 {
@@ -86,7 +87,7 @@ ul{
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    backdrop-filter: blur(20px); 
+    
 }
 
 .popup-content {
@@ -165,7 +166,157 @@ ul{
 
 
 
+/* AboutUs Css */
 
+
+#AbousUS
+{
+    margin: 2rem 1rem 1rem 1rem;
+}
+#AbousUS .aboutspage{
+ 
+    margin: auto;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.aboutspage h1{
+   
+    text-align: center;
+    color: #6C5CE7;
+   /* background: linear-gradient(180deg, #02AABD , #ED1E79 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;*/
+    font-weight: 700;
+    font-size: 2.5rem;
+    position: relative;
+      
+     
+    
+}
+.aboutspage h1::after{
+    content: '';
+    position: absolute;
+    left: 45%;
+    bottom: -10px; /* Adjust the distance from the text */
+    width: 10%;
+    height: 2px; /* Set the thickness of the underline */
+    background-color: #6C5CE7; /* Set the color of the underline */
+    border-radius: 80px; 
+
+}
+.about{
+    margin: 4rem;
+}
+
+.grid-two-cols{
+    grid-template-columns: repeat(2,1fr);
+}
+.infoimg{
+    margin-top: 0%;
+}
+.about-img{
+    margin-top: 0%;
+    padding: 0%;
+    width: 600px;
+    height: 400px;
+}
+.about .info h2{
+    color: #6C5CE7;
+    padding: 0.1rem;
+    margin: 0.4rem;
+}
+.about .info p{
+   
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+    text-align: justify;
+}
+
+
+/* internship card layout */
+
+
+
+#interncard
+{
+    margin: 2rem 1rem 1rem 1rem;
+}
+#interncard .internship-div{
+ 
+    margin: auto;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.internship-div h2{
+   
+    text-align: center;
+    color: #6C5CE7;
+   /* background: linear-gradient(180deg, #02AABD , #ED1E79 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;*/
+    font-weight: 700;
+    font-size: 2.5rem;
+    position: relative;
+    
+}
+.internship-div h2::after{
+    content: '';
+    position: absolute;
+    left: 35%;
+    bottom: -10px; /* Adjust the distance from the text */
+    width: 30%;
+    height: 2px; /* Set the thickness of the underline */
+    background-color: #6C5CE7; /* Set the color of the underline */
+    border-radius: 80px; 
+}
+
+.internship-card{
+    margin: 4rem;
+}
+.grid-three-cols{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.card{
+
+    margin: 2rem;
+    padding: 1rem;
+
+}
+
+.card-info{
+    margin: 1.3rem;
+}
+.card-info h3{
+    text-align: center;
+    font-weight: 700;
+}
+.card-info p {
+    margin-top: 1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.card-info .btn {
+
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: #6C5CE7;
+    color: #fff;
+    cursor: pointer;
+    height: 2.5rem;
+    margin-left: 4rem;
+    width: 10rem;
+    font-size: 1rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,.3);
+}
 
 
 /* ResponsiveDesign */
@@ -257,4 +408,82 @@ ul{
 }
 
 
-  }
+/* responsive design for about page */
+
+.grid-two-cols{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.about{
+    margin: 0%;
+}
+
+.about .info h2{
+    color: #6C5CE7;
+    font-size: 1.6rem;
+    text-align: center;
+   
+}
+.about .info p{
+   
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0%;
+    margin: 0%;
+    text-align: justify;
+    margin-bottom: 0.5rem;
+}
+
+
+    /* responsive design for internship  */
+
+
+    
+
+.internship-card{
+    margin: 0rem;
+}
+.grid-three-cols{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.card{
+
+    margin: 2rem;
+    padding: 1rem;
+
+}
+
+.card-info{
+    margin: 1.3rem;
+}
+.card-info h3{
+    text-align: center;
+    font-weight: 700;
+}
+.card-info p {
+    margin-top: 1rem;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.card-info .btn {
+
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: #6C5CE7;
+    color: #fff;
+    cursor: pointer;
+    height: 2.5rem;
+    margin-left: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,.3);
+}
+
+
+
+
+}
